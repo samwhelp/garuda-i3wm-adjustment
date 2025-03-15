@@ -348,6 +348,7 @@ bindsym Mod1+Shift+i exec --no-startup-id dmenu_run
 ### Head: Keybind / Application / Favorite
 ##
 
+
 ## Launch File Manager (thunar)
 ## Alt + Shift + f
 bindsym Mod1+Shift+f exec thunar
@@ -365,7 +366,8 @@ bindsym Mod1+Shift+e exec geany
 
 ## Launch Web Browser (firedragon)
 ## Alt + Shift + b
-bindsym Mod1+Shift+b exec firedragon
+bindsym Mod1+Shift+b exec firedragon --new-tab about:blank
+
 
 ##
 ### Tail: Keybind / Application / Favorite
@@ -1044,8 +1046,8 @@ bindsym Mod1+Print exec --no-startup-id scrot -s
 
 ## VolumeControl
 ## Alt + Shift + v
-bindsym Mod1+Shift+v exec mate-volume-control
-#bindsym Mod1+Shift+v exec pavucontrol
+#bindsym Mod1+Shift+v exec mate-volume-control
+bindsym Mod1+Shift+v exec pavucontrol
 #bindsym Mod1+Shift+v exec pavucontrol-qt
 
 
