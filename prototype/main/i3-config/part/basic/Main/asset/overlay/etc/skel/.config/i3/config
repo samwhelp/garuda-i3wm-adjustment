@@ -226,10 +226,10 @@ exec --no-startup-id xfce4-power-manager
 exec_always --no-startup-id setcursor
 exec --no-startup-id ~/.local/bin/shcts    # comment stop autostart cheatsheet
 #exec_always --no-startup-id ${HOME}/.config/polybar/launch.sh
-exec_always --no-startup-id numlockx on
+#exec_always --no-startup-id numlockx on
 exec blueberry-tray
 exec --no-startup-id java -Xmx1024m -jar "/opt/xdman/xdman.jar" -m
-exec --no-startup-id ~/.local/bin/fastfetch-garuda
+#exec --no-startup-id ~/.local/bin/fastfetch-garuda
 
 
 ##
@@ -930,12 +930,12 @@ bindsym Mod1+j layout toggle all
 
 ## Layout Toggle All
 ## Alt + Up
-bindsym Mod1+Up layout toggle all
+#bindsym Mod1+Up layout toggle all
 
 
 ## Layout Toggle All
 ## Alt + Down
-bindsym Mod1+Down layout toggle all
+#bindsym Mod1+Down layout toggle all
 
 
 
