@@ -1,6 +1,5 @@
-
 [Icon Theme]
 Name=Default
 Comment=Default cursor theme
-Inherits=Qogir,breeze_cursors,Adwaita
+Inherits=Qogir
 Size=24
