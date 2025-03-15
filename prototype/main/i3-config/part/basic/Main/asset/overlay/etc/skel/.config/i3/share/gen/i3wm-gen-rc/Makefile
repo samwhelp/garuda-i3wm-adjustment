@@ -9,6 +9,8 @@ help:
 	@echo '	$$ make'
 	@echo '	$$ make help'
 	@echo
+	@echo '	$$ make fedora-prepare'
+	@echo
 	@echo '	$$ make manjaro-prepare'
 	@echo
 	@echo '	$$ make ubuntu-prepare'
@@ -27,14 +29,19 @@ help:
 .PHONY: help
 
 
+fedora-prepare:
+	sudo dnf install php
+.PHONY: fedora-prepare
+
+
 manjaro-prepare:
-	pamac install php
-.PHONY: prepare-manjaro
+	sudo pacman -Sy --needed php
+.PHONY: manjaro-prepare
 
 
 ubuntu-prepare:
 	sudo apt-get install php-cli
-.PHONY: prepare-ubuntu
+.PHONY: ubuntu-prepare
 
 
 rc:
