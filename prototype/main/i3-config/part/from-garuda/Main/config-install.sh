@@ -4,39 +4,39 @@ set -e
 
 
 ################################################################################
-### Head: hyprland
+### Head: i3wm
 ##
 
-hyprland_config_run_pre () {
+i3wm_config_run_pre () {
 
-	hyprland_service_stop
-
-
-	return 0
-
-}
-
-hyprland_config_run_post () {
-
-	hyprland_service_start
+	i3wm_service_stop
 
 
 	return 0
 
 }
 
-hyprland_service_stop () {
+i3wm_config_run_post () {
 
-	hyprland_service_stop_xfconfd
-
-	#hyprland_service_stop_xfsettingsd
+	i3wm_service_start
 
 
 	return 0
 
 }
 
-hyprland_service_stop_xfconfd () {
+i3wm_service_stop () {
+
+	i3wm_service_stop_xfconfd
+
+	#i3wm_service_stop_xfsettingsd
+
+
+	return 0
+
+}
+
+i3wm_service_stop_xfconfd () {
 
 	if killall -9 xfconfd; then
 		return 0
@@ -47,7 +47,7 @@ hyprland_service_stop_xfconfd () {
 
 }
 
-hyprland_service_stop_xfsettingsd () {
+i3wm_service_stop_xfsettingsd () {
 
 	if killall -9 xfsettingsd; then
 		return 0
@@ -58,30 +58,30 @@ hyprland_service_stop_xfsettingsd () {
 
 }
 
-hyprland_service_start () {
+i3wm_service_start () {
 
 
 	return 0
 
 }
 
-hyprland_config_install () {
+i3wm_config_install () {
 
 	echo
 	echo "##"
-	echo "## Config: hyprland"
+	echo "## Config: i3wm"
 	echo "##"
 	echo
 
 
-	hyprland_config_install_by_dir
+	i3wm_config_install_by_dir
 
 
 	echo
 
 }
 
-hyprland_config_install_by_dir () {
+i3wm_config_install_by_dir () {
 
 
 	echo
@@ -97,7 +97,7 @@ hyprland_config_install_by_dir () {
 }
 
 ##
-### Tail: hyprland
+### Tail: i3wm
 ################################################################################
 
 
@@ -107,11 +107,11 @@ hyprland_config_install_by_dir () {
 
 main_config_install () {
 
-	hyprland_config_run_pre
+	i3wm_config_run_pre
 
-	hyprland_config_install
+	i3wm_config_install
 
-	hyprland_config_run_post
+	i3wm_config_run_post
 
 }
 

@@ -4,14 +4,14 @@ set -e
 
 
 ################################################################################
-### Head: hyprland
+### Head: i3wm
 ##
 
-hyprland_asset_install () {
+i3wm_asset_install () {
 
 	echo
 	echo "##"
-	echo "## Asset: hyprland"
+	echo "## Asset: i3wm"
 	echo "##"
 	echo
 
@@ -25,7 +25,7 @@ hyprland_asset_install () {
 
 
 ##
-### Tail: hyprland
+### Tail: i3wm
 ################################################################################
 
 
@@ -35,7 +35,7 @@ hyprland_asset_install () {
 
 main_asset_install () {
 
-	hyprland_asset_install
+	i3wm_asset_install
 
 }
 
