@@ -207,6 +207,37 @@ exec_always --no-startup-id ~/.config/i3/autostart
 
 
 ################################################################################
+### Head: Autostart / System / Misc
+##
+
+
+##
+## ## autostart
+##
+
+exec --no-startup-id ~/.fehbg
+exec --no-startup-id copyq
+exec --no-startup-id dunst
+exec --no-startup-id dex -a -s /etc/xdg/autostart/:~/.config/autostart/
+exec --no-startup-id nm-applet
+#exec --no-startup-id lxrandr
+exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+exec --no-startup-id xfce4-power-manager
+exec_always --no-startup-id setcursor
+exec --no-startup-id ~/.local/bin/shcts    # comment stop autostart cheatsheet
+#exec_always --no-startup-id ${HOME}/.config/polybar/launch.sh
+exec_always --no-startup-id numlockx on
+exec blueberry-tray
+exec --no-startup-id java -Xmx1024m -jar "/opt/xdman/xdman.jar" -m
+exec --no-startup-id ~/.local/bin/fastfetch-garuda
+
+
+##
+### Tail: Autostart / System / Misc
+################################################################################
+
+
+################################################################################
 ### Head: Keybind / System
 ##
 
@@ -248,29 +279,29 @@ bindsym Mod1+Shift+z exec systemctl poweroff
 ##
 
 
-## Launch sakura
+## Launch xfce4-terminal
 ## Alt + Enter
-bindsym Mod1+Return exec sakura
-
-
-## Launch sakura
-## Alt + Shift + a
-bindsym Mod1+Shift+a exec sakura
+bindsym Mod1+Return exec xfce4-terminal
 
 
 ## Launch xfce4-terminal
+## Alt + Shift + a
+bindsym Mod1+Shift+a exec xfce4-terminal
+
+
+## Launch sakura
 ## Alt + Ctrl + a
-bindsym Mod1+Ctrl+a exec xfce4-terminal
+bindsym Mod1+Ctrl+a exec sakura
 
 
-## Launch xterm
+## Launch qterminal
 ## Alt + Shift + t
-bindsym Mod1+Shift+t exec xterm
+bindsym Mod1+Shift+t exec qterminal
 
 
-## Launch urxvt
+## Launch kitty
 ## Alt + Ctrl + t
-bindsym Mod1+Ctrl+t exec urxvt
+bindsym Mod1+Ctrl+t exec kitty
 
 ##
 ### Tail: Keybind / Application / Terminal
@@ -317,24 +348,24 @@ bindsym Mod1+Shift+i exec --no-startup-id dmenu_run
 ### Head: Keybind / Application / Favorite
 ##
 
-## Launch File Manager (pcmanfm-qt)
-## Alt + Shift + f
-bindsym Mod1+Shift+f exec pcmanfm-qt
-
-
 ## Launch File Manager (thunar)
+## Alt + Shift + f
+bindsym Mod1+Shift+f exec thunar
+
+
+## Launch File Manager (pcmanfm-qt)
 ## Alt + Shift + g
-bindsym Mod1+Shift+g exec thunar
+bindsym Mod1+Shift+g exec pcmanfm-qt
 
 
-## Launch Text Editor (mousepad)
+## Launch Text Editor (geany)
 ## Alt + Shift + e
-bindsym Mod1+Shift+e exec mousepad
+bindsym Mod1+Shift+e exec geany
 
 
-## Launch Web Browser (firefox)
+## Launch Web Browser (firedragon)
 ## Alt + Shift + b
-bindsym Mod1+Shift+b exec firefox
+bindsym Mod1+Shift+b exec firedragon
 
 ##
 ### Tail: Keybind / Application / Favorite
@@ -385,6 +416,12 @@ bindsym Mod4+n floating toggle
 ## Window toggle floating or tited
 ## Win + `
 bindsym Mod4+grave floating toggle
+
+
+## Window toggle floating or tited
+## Win + Esc
+bindsym Mod4+Escape floating toggle
+
 
 ##
 ### Tail: Keybind / Window / FloatingToggle
@@ -963,7 +1000,7 @@ bindsym Mod1+Ctrl+w exec --no-startup-id feh --bg-fill ~/Pictures/Wallpaper/defa
 
 
 ################################################################################
-### Head: Keybind / Volume
+### Head: Keybind / Screenshot
 ##
 
 ## Screenshot
@@ -976,7 +1013,7 @@ bindsym Print exec --no-startup-id scrot
 bindsym Mod1+Print exec --no-startup-id scrot -s
 
 ##
-### Tail: Keybind / Volume
+### Tail: Keybind / Screenshot
 ################################################################################
 
 
@@ -1079,8 +1116,8 @@ bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -q -D pulse sset Master
 ### Head: Rule / Workspace / File
 ##
 
-assign [class="pcmanfm-qt"] 1
-assign [class="thunr"] 1
+assign [class="pcmanfm-qt"] $the_workspace_1
+assign [class="thunr"] $the_workspace_1
 
 ##
 ### Tail: Rule / Workspace / File
@@ -1091,7 +1128,7 @@ assign [class="thunr"] 1
 ### Head: Rule / Workspace / Edit
 ##
 
-assign [class="Atom"] 2
+assign [class="Atom"] $the_workspace_2
 
 ##
 ### Tail: Rule / Workspace / Edit
@@ -1102,7 +1139,7 @@ assign [class="Atom"] 2
 ### Head: Rule / Workspace / Web
 ##
 
-assign [class="Navigator|firefox"] 3
+assign [class="Navigator|firefox"] $the_workspace_3
 
 ##
 ### Tail: Rule / Workspace / Web
@@ -1113,8 +1150,8 @@ assign [class="Navigator|firefox"] 3
 ### Head: Rule / Workspace / Term
 ##
 
-#assign [class="Sakura"] 4
-#assign [class="Xfce4-terminal"] 4
+#assign [class="Sakura"] $the_workspace_4
+#assign [class="Xfce4-terminal"] $the_workspace_4
 
 ##
 ### Tail: Rule / Workspace / Term
