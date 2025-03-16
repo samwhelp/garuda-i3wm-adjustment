@@ -1,0 +1,26 @@
+#!/bin/sh
+
+
+##
+## ## Init
+##
+
+REF_BASE_DIR_PATH="$(cd -- "$(dirname -- "${0}")" ; pwd)"
+REF_PLAN_DIR_PATH="${REF_BASE_DIR_PATH}"
+#echo "${THE_BASE_DIR_PATH}"
+
+
+##
+## ## Path
+##
+REF_AUTOSTART_MODULE_FILE_NAME="autostart-module"
+REF_AUTOSTART_MODULE_FILE_PATH="${REF_PLAN_DIR_PATH}/${REF_AUTOSTART_MODULE_FILE_NAME}"
+
+
+
+
+##
+## ## Run autostart-module
+##
+
+#${REF_AUTOSTART_MODULE_FILE_PATH} &
