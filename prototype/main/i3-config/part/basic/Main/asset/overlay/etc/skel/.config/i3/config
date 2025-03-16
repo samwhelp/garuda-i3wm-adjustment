@@ -378,13 +378,16 @@ bindsym Mod1+Shift+b exec firedragon --new-tab about:blank
 ### Head: Keybind / Window / Close
 ##
 
+
 ## Window Close
 ## Win + q
 bindsym Mod4+q kill
 
+
 ## Window Kill
 ## Win + Shift + q
 bindsym Mod4+Shift+q kill
+
 
 ##
 ### Tail: Keybind / Window / Close
@@ -409,6 +412,7 @@ bindsym Mod4+f fullscreen toggle
 ##
 
 ## https://i3wm.org/docs/userguide.html#manipulating_layout
+
 
 ## Window toggle floating or tited
 ## Win + n
@@ -701,6 +705,7 @@ bindsym Mod1+z workspace back_and_forth
 ### Head: Keybind / Workspace / QuickSwitch / Cycle
 ##
 
+
 # Switch to Previous Workspace
 ## Alt + a
 bindsym Mod1+a workspace prev
@@ -709,6 +714,8 @@ bindsym Mod1+a workspace prev
 ## Switch to Next Workspace
 ## Alt + s
 bindsym Mod1+s workspace next
+
+
 
 
 ## Switch to Previous Workspace
@@ -721,14 +728,16 @@ bindsym Mod1+h workspace prev
 bindsym Mod1+l workspace next
 
 
+
+
 ## Switch to Previous Workspace
 ## Alt + Left
-bindsym Mod1+Left workspace prev
+#bindsym Mod1+Left workspace prev
 
 
 ## Switch to Next Workspace
 ## Alt + Right
-bindsym Mod1+Right workspace next
+#bindsym Mod1+Right workspace next
 
 
 ##
@@ -809,6 +818,7 @@ bindsym Mod1+5 workspace $the_workspace_5
 ### Head: Keybind / Window / MoveToWorkspace
 ##
 
+
 ## Move Focused Window to Workspace 1 (Term)
 ## Win + 1
 bindsym Mod4+1 move container to workspace $the_workspace_1
@@ -868,6 +878,7 @@ bindsym Mod4+5 move container to workspace $the_workspace_5
 ## Win + Alt + l
 #bindsym Mod4+Mod1+l move container to workspace $the_workspace_1
 
+
 ##
 ### Tail: Keybind / Window / MoveToWorkspace
 ################################################################################
@@ -878,6 +889,7 @@ bindsym Mod4+5 move container to workspace $the_workspace_5
 ##
 
 ## https://i3wm.org/docs/userguide.html#manipulating_layout
+
 
 ## Switch to Stacking
 ## Win + `
@@ -892,6 +904,7 @@ bindsym Mod4+5 move container to workspace $the_workspace_5
 ## Layout toggle tabbed stacking
 ## Alt + `
 bindsym Mod1+grave layout toggle tabbed stacking
+
 
 ## Layout toggle split
 ## Alt + Tab
