@@ -196,6 +196,47 @@ set $the_workspace_10 10:Game
 
 
 ################################################################################
+### Head: Attribute / Panel / Base
+##
+
+
+##
+## ## Panel
+##
+## > Start i3bar to display a workspace bar
+##
+
+bar {
+
+	status_command exec /usr/bin/net-speed.sh
+	font pango:source code pro 16
+	separator_symbol "|"
+	#strip_workspace_numbers yes|no
+	#strip_workspace_name yes|no
+
+	colors {
+		background #181b28
+		statusline #161925
+		separator  #2f343f
+
+		## Colour of			Border			Background		Text
+		focused_workspace		#4C7899			#285577			#FFFFFF
+		active_workspace		#333333			#222222			#FFFFFF
+		inactive_workspace		#333333			#222222			#888888
+		urgent_workspace		#2F343A			#900000			#FFFFFF
+		#binding_mode			#2F343A			#900000			#FFFFFF
+
+	}
+
+}
+
+
+##
+### Tail: Attribute / Panel / Base
+################################################################################
+
+
+################################################################################
 ### Head: Autostart / System / Main
 ##
 
@@ -1163,6 +1204,22 @@ bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -q -D pulse sset Master
 
 ##
 ### Tail: Keybind / Volume
+################################################################################
+
+
+################################################################################
+### Head: Keybind / Panel / Base
+##
+
+
+## Toggle Show Panel
+## Alt + Shift + p
+## > hide/unhide i3status bar
+bindsym Mod1+Shift+p bar mode toggle
+
+
+##
+### Tail: Keybind / Panel / Base
 ################################################################################
 
 
