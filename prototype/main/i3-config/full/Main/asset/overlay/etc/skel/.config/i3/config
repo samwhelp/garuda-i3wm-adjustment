@@ -278,6 +278,12 @@ bindsym Mod1+Shift+z exec systemctl poweroff
 ### Head: Keybind / Application / Rofi
 ##
 
+
+## Launch Rofi (rofi -show drun -show-icons)
+## Alt + Shift + d
+bindsym Mod1+Shift+d exec rofi -show drun -show-icons
+
+
 ## Launch Rofi (rofi -show run)
 ## Alt + Shift + r
 bindsym Mod1+Shift+r exec rofi -show run
@@ -287,10 +293,6 @@ bindsym Mod1+Shift+r exec rofi -show run
 ## Alt + Shift + w
 bindsym Mod1+Shift+w exec rofi -show window -show-icons
 
-
-## Launch Rofi (rofi -show drun -show-icons)
-## Alt + Shift + d
-bindsym Mod1+Shift+d exec rofi -show drun -show-icons
 
 ##
 ### Tail: Keybind / Application / Rofi
@@ -302,14 +304,14 @@ bindsym Mod1+Shift+d exec rofi -show drun -show-icons
 ##
 
 
-## Launch Rofi (rofi -show run)
-## Alt + F1
-bindsym Mod1+F1 exec rofi -show run
-
-
 ## Launch Rofi (rofi -show drun -show-icons)
+## Alt + F1
+bindsym Mod1+F1 exec rofi -show drun -show-icons
+
+
+## Launch Rofi (rofi -show run)
 ## Alt + F2
-bindsym Mod1+F2 exec rofi -show drun -show-icons
+bindsym Mod1+F2 exec rofi -show run
 
 
 ## Launch Rofi (rofi -show window -show-icons)
