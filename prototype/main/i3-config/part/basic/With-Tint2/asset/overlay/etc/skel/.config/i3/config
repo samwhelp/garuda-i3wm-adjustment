@@ -1015,20 +1015,32 @@ bindsym Mod1+Ctrl+w exec --no-startup-id feh --bg-fill ~/Pictures/Wallpaper/defa
 
 
 ################################################################################
-### Head: Keybind / Screenshot
+### Head: Keybind / Screenshot / screengrab
 ##
+
 
 ## Screenshot
 ## Print
-bindsym Print exec --no-startup-id scrot
+bindsym Print exec --no-startup-id screengrab --fullscreen
+
+
+## Screenshot Current Window
+## Win + Print
+bindsym Mod4+Print exec --no-startup-id screengrab --active
 
 
 ## Screenshot Selected Area
+## Ctrl + Print
+bindsym Ctrl+Print exec --no-startup-id screengrab --region
+
+
+## Screenshot Application
 ## Alt + Print
-bindsym Mod1+Print exec --no-startup-id scrot -s
+bindsym Mod1+Print exec --no-startup-id screengrab
+
 
 ##
-### Tail: Keybind / Screenshot
+### Tail: Keybind / Screenshot / screengrab
 ################################################################################
 
 
@@ -1202,6 +1214,28 @@ for_window [window_role="task_dialog"] floating enable
 
 
 ##
+## ## Example
+##
+
+#for_window [class="pavucontrol"] floating enable border none
+#for_window [class="pavucontrol"] floating enable pixel 1
+#for_window [class="pavucontrol"] floating enable border normal
+#for_window [class="pavucontrol"] floating enable
+
+
+
+
+##
+## ## Open specific applications in floating mode
+##
+
+for_window [class="pavucontrol"] floating enable
+for_window [class="screengrab"] floating enable
+
+
+
+
+##
 ## ## From Garuda
 ##
 
@@ -1210,7 +1244,6 @@ for_window [window_role="task_dialog"] floating enable
 ## ## Open specific applications in floating mode
 ##
 
-for_window [class="pavucontrol"] floating enable border none
 for_window [title="alsamixer"] floating enable border pixel 1
 for_window [class="calamares"] floating enable border normal
 for_window [class="Clipgrab"] floating enable
