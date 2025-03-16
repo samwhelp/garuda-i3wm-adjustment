@@ -176,7 +176,8 @@ launcher_item_app = rofi-show-drun.desktop
 #launcher_item_app = openbox-show-root-menu.desktop
 #launcher_item_app = tint2conf.desktop
 #launcher_item_app = openbox-exit.desktop
-launcher_item_app = pcmanfm-qt.desktop
+launcher_item_app = thunar.desktop
+#launcher_item_app = pcmanfm-qt.desktop
 #launcher_item_app = org.xfce.mousepad.desktop
 #launcher_item_app = leafpad.desktop
 launcher_item_app = geany.desktop
@@ -187,6 +188,8 @@ launcher_item_app = firedragon.desktop
 #launcher_item_app = google-chrome.desktop
 launcher_item_app = xfce4-terminal.desktop
 #launcher_item_app = sakura.desktop
+launcher_item_app = lxappearance.desktop
+launcher_item_app = lxrandr.desktop
 launcher_icon_theme = Qogir
 
 #-------------------------------------
