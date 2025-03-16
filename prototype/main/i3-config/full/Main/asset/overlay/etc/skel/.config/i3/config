@@ -275,6 +275,54 @@ bindsym Mod1+Shift+z exec systemctl poweroff
 
 
 ################################################################################
+### Head: Keybind / Application / Rofi
+##
+
+## Launch Rofi (rofi -show run)
+## Alt + Shift + r
+bindsym Mod1+Shift+r exec rofi -show run
+
+
+## Launch Rofi (rofi -show window -show-icons)
+## Alt + Shift + w
+bindsym Mod1+Shift+w exec rofi -show window -show-icons
+
+
+## Launch Rofi (rofi -show drun -show-icons)
+## Alt + Shift + d
+bindsym Mod1+Shift+d exec rofi -show drun -show-icons
+
+##
+### Tail: Keybind / Application / Rofi
+################################################################################
+
+
+################################################################################
+### Head: Keybind / Application / Launcher
+##
+
+
+## Launch Rofi (rofi -show run)
+## Alt + F1
+bindsym Mod1+F1 exec rofi -show run
+
+
+## Launch Rofi (rofi -show drun -show-icons)
+## Alt + F2
+bindsym Mod1+F2 exec rofi -show drun -show-icons
+
+
+## Launch Rofi (rofi -show window -show-icons)
+## Alt + F3
+bindsym Mod1+F3 exec rofi -show window -show-icons
+
+
+##
+### Tail: Keybind / Application / Launcher
+################################################################################
+
+
+################################################################################
 ### Head: Keybind / Application / Terminal
 ##
 
@@ -309,42 +357,6 @@ bindsym Mod1+Ctrl+t exec kitty
 
 
 ################################################################################
-### Head: Keybind / Application / Rofi
-##
-
-## Launch Rofi (rofi -show run)
-## Alt + Shift + r
-bindsym Mod1+Shift+r exec rofi -show run
-
-
-## Launch Rofi (rofi -show window -show-icons)
-## Alt + Shift + w
-bindsym Mod1+Shift+w exec rofi -show window -show-icons
-
-
-## Launch Rofi (rofi -show drun -show-icons)
-## Alt + Shift + d
-bindsym Mod1+Shift+d exec rofi -show drun -show-icons
-
-##
-### Tail: Keybind / Application / Rofi
-################################################################################
-
-
-################################################################################
-### Head: Keybind / Application / Dmenu
-##
-
-## Launch Dmenu
-## Alt + Shift + i
-bindsym Mod1+Shift+i exec --no-startup-id dmenu_run
-
-##
-### Tail: Keybind / Application / Dmenu
-################################################################################
-
-
-################################################################################
 ### Head: Keybind / Application / Favorite
 ##
 
@@ -371,6 +383,19 @@ bindsym Mod1+Shift+b exec firedragon --new-tab about:blank
 
 ##
 ### Tail: Keybind / Application / Favorite
+################################################################################
+
+
+################################################################################
+### Head: Keybind / Application / Dmenu
+##
+
+## Launch Dmenu
+## Alt + Shift + i
+bindsym Mod1+Shift+i exec --no-startup-id dmenu_run
+
+##
+### Tail: Keybind / Application / Dmenu
 ################################################################################
 
 
@@ -1015,20 +1040,32 @@ bindsym Mod1+Ctrl+w exec --no-startup-id feh --bg-fill ~/Pictures/Wallpaper/defa
 
 
 ################################################################################
-### Head: Keybind / Screenshot
+### Head: Keybind / Screenshot / screengrab
 ##
+
 
 ## Screenshot
 ## Print
-bindsym Print exec --no-startup-id scrot
+bindsym Print exec screengrab --fullscreen
+
+
+## Screenshot Current Window
+## Win + Print
+bindsym Mod4+Print exec screengrab --active
 
 
 ## Screenshot Selected Area
+## Ctrl + Print
+bindsym Ctrl+Print exec screengrab --region
+
+
+## Screenshot Application
 ## Alt + Print
-bindsym Mod1+Print exec --no-startup-id scrot -s
+bindsym Mod1+Print exec screengrab
+
 
 ##
-### Tail: Keybind / Screenshot
+### Tail: Keybind / Screenshot / screengrab
 ################################################################################
 
 
@@ -1202,6 +1239,28 @@ for_window [window_role="task_dialog"] floating enable
 
 
 ##
+## ## Example
+##
+
+#for_window [class="pavucontrol"] floating enable border none
+#for_window [class="pavucontrol"] floating enable pixel 1
+#for_window [class="pavucontrol"] floating enable border normal
+#for_window [class="pavucontrol"] floating enable
+
+
+
+
+##
+## ## Open specific applications in floating mode
+##
+
+for_window [class="pavucontrol"] floating enable
+for_window [class="screengrab"] floating enable
+
+
+
+
+##
 ## ## From Garuda
 ##
 
@@ -1210,7 +1269,6 @@ for_window [window_role="task_dialog"] floating enable
 ## ## Open specific applications in floating mode
 ##
 
-for_window [class="pavucontrol"] floating enable border none
 for_window [title="alsamixer"] floating enable border pixel 1
 for_window [class="calamares"] floating enable border normal
 for_window [class="Clipgrab"] floating enable
