@@ -208,7 +208,10 @@ set $the_workspace_10 10:Game
 
 bar {
 
-	status_command exec /usr/bin/net-speed.sh
+	#status_command exec /usr/bin/net-speed.sh
+	#status_command /usr/bin/net-speed.sh
+	#status_command i3status
+
 	font pango:source code pro 16
 	separator_symbol "|"
 	#strip_workspace_numbers yes|no
