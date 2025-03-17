@@ -35,7 +35,7 @@ yad --width=990 --height=1390 \
 "Window Close" "Win+q" "#cccccc" "comfortaa 16" \
 "Window Fullscreen" "Win+f" "#ffffff" "comfortaa 16" \
 "Window Toggle Float" "Win+Esc" "#cccccc" "comfortaa 16" \
-"Window Toggle Float" "Win+grave" "#ffffff" "comfortaa 16" \
+"Change focus between tiling / floating windows" "Win+grave" "#ffffff" "comfortaa 16" \
 "Window Switch Prev" "Win+a" "#cccccc" "comfortaa 16" \
 "Window Switch Next" "Win+s" "#ffffff" "comfortaa 16" \
 "Workspace Switch Prev" "Alt+a" "#cccccc" "comfortaa 16" \
