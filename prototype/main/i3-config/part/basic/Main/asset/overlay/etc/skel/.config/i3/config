@@ -592,7 +592,7 @@ bindsym Mod4+n floating toggle
 
 ## Window toggle floating or tited
 ## Win + `
-bindsym Mod4+grave floating toggle
+#bindsym Mod4+grave floating toggle
 
 
 ## Window toggle floating or tited
@@ -619,9 +619,15 @@ bindsym Mod4+v focus mode_toggle
 
 
 ## focus mode_toggle
+## Win + `
+## change focus between tiling / floating windows
+bindsym Mod4+grave focus mode_toggle
+
+
+## focus mode_toggle
 ## Win + m
 ## change focus between tiling / floating windows
-bindsym Mod4+m focus mode_toggle
+#bindsym Mod4+m focus mode_toggle
 
 
 
