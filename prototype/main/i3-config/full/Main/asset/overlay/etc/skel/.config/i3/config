@@ -287,6 +287,7 @@ exec_always --no-startup-id setcursor
 exec --no-startup-id ~/.local/bin/shcts    # comment stop autostart cheatsheet
 #exec_always --no-startup-id ${HOME}/.config/polybar/launch.sh
 #exec_always --no-startup-id numlockx on
+#exec_always --no-startup-id numlockx off
 exec blueberry-tray
 exec --no-startup-id java -Xmx1024m -jar "/opt/xdman/xdman.jar" -m
 #exec --no-startup-id ~/.local/bin/fastfetch-garuda
@@ -1360,8 +1361,10 @@ bindsym Mod1+Shift+p bar mode toggle
 ### Head: Rule / Workspace / File
 ##
 
-assign [class="pcmanfm-qt"] $the_workspace_1
-assign [class="thunr"] $the_workspace_1
+
+#assign [class="pcmanfm-qt"] $the_workspace_1
+#assign [class="thunr"] $the_workspace_1
+
 
 ##
 ### Tail: Rule / Workspace / File
@@ -1372,7 +1375,9 @@ assign [class="thunr"] $the_workspace_1
 ### Head: Rule / Workspace / Edit
 ##
 
-assign [class="Atom"] $the_workspace_2
+
+#assign [class="Atom"] $the_workspace_2
+
 
 ##
 ### Tail: Rule / Workspace / Edit
@@ -1383,7 +1388,9 @@ assign [class="Atom"] $the_workspace_2
 ### Head: Rule / Workspace / Web
 ##
 
-assign [class="Navigator|firefox"] $the_workspace_3
+
+#assign [class="Navigator|firefox"] $the_workspace_3
+
 
 ##
 ### Tail: Rule / Workspace / Web
@@ -1394,8 +1401,10 @@ assign [class="Navigator|firefox"] $the_workspace_3
 ### Head: Rule / Workspace / Term
 ##
 
+
 #assign [class="Sakura"] $the_workspace_4
 #assign [class="Xfce4-terminal"] $the_workspace_4
+
 
 ##
 ### Tail: Rule / Workspace / Term
