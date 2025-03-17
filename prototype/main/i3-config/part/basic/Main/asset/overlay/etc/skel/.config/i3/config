@@ -1238,22 +1238,22 @@ bindsym Mod1+m exec --no-startup-id pamixer --toggle-mute
 
 ## VolumeDecrease
 ## Alt + Shift + ,  (<)
-bindsym Mod1+Shift+comma exec --no-startup-id pamixer -d 10
+bindsym Mod1+Shift+comma exec --no-startup-id pamixer -d 5
 
 
 ## VolumeIncrease
 ## Alt + Shift + .  (>)
-bindsym Mod1+Shift+period exec --no-startup-id pamixer -i 10
+bindsym Mod1+Shift+period exec --no-startup-id pamixer -i 5
 
 
 ## VolumeDecreaseSlowly
 ## Alt + Ctrl + .  (>)
-bindsym Mod1+Ctrl+comma exec --no-startup-id pamixer -d 5
+bindsym Mod1+Ctrl+comma exec --no-startup-id pamixer -d 1
 
 
 ## VolumeIncreaseSlowly
 ## Alt + Ctrl + .  (>)
-bindsym Mod1+Ctrl+period exec --no-startup-id pamixer -i 5
+bindsym Mod1+Ctrl+period exec --no-startup-id pamixer -i 1
 
 
 ##
@@ -1272,12 +1272,12 @@ bindsym XF86AudioMute exec --no-startup-id pamixer --toggle-mute
 
 ## VolumeDecrease
 ## XF86AudioLowerVolume
-bindsym XF86AudioLowerVolume exec --no-startup-id pamixer -d 10
+bindsym XF86AudioLowerVolume exec --no-startup-id pamixer -d 5
 
 
 ## VolumeIncrease
 ## XF86AudioRaiseVolume
-bindsym XF86AudioRaiseVolume exec --no-startup-id pamixer -i 10
+bindsym XF86AudioRaiseVolume exec --no-startup-id pamixer -i 5
 
 
 ##
