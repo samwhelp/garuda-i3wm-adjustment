@@ -76,7 +76,7 @@ brightnessctl
 ## mate-volume-control (Package: mate-media)
 ##
 
-alsa-utils
+#alsa-utils
 pamixer
 libpulse
 pavucontrol
