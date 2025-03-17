@@ -292,6 +292,21 @@ bindsym Mod1+Ctrl+z exec systemctl poweroff
 
 
 ################################################################################
+### Head: Keybind / System / Tips
+##
+
+
+## Shortcut Tips
+## Alt + Shift + o
+bindsym Mod1+Shift+o exec ~/.local/bin/shcts
+
+
+##
+### Tail: Keybind / System / Tips
+################################################################################
+
+
+################################################################################
 ### Head: Keybind / Application / Rofi
 ##
 
