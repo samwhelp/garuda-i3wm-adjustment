@@ -52,3 +52,16 @@ yad --width=990 --height=1390 \
 "Screenshot" "Print" "#ffffff" "comfortaa 16" \
 "Screenshot Current Window" "Win+Print" "#cccccc" "comfortaa 16" \
 "Screenshot Selected Area" "Win+Print" "#ffffff" "comfortaa 16" \
+"Brightness Decrease" "Fn+F5(XF86MonBrightnessDown)" "#cccccc" "comfortaa 16" \
+"Brightness Increase" "Fn+F6(XF86MonBrightnessUp)" "#ffffff" "comfortaa 16" \
+"Brightness Decrease" "Alt+Shift+[" "#cccccc" "comfortaa 16" \
+"Brightness Increase" "Alt+Shift+]" "#ffffff" "comfortaa 16" \
+"Launch Volume Control (pavucontrol)" "Alt+Shift+v" "#cccccc" "comfortaa 16" \
+"Volume Toggle Mute" "Fn+F10(XF86AudioMute)" "#ffffff" "comfortaa 16" \
+"Volume Decrease" "Fn+F11(XF86AudioLowerVolume)" "#cccccc" "comfortaa 16" \
+"Volume Increase" "Fn+F12(XF86AudioRaiseVolume)" "#ffffff" "comfortaa 16" \
+"Volume Toggle Mute" "Alt+m" "#cccccc" "comfortaa 16" \
+"Volume Decrease" "Alt+Shift+<" "#ffffff" "comfortaa 16" \
+"Volume Increase" "Alt+Shift+>" "#cccccc" "comfortaa 16" \
+"Volume Decrease Slowly" "Alt+Ctrl+<" "#ffffff" "comfortaa 16" \
+"Volume Increase Slowly" "Alt+Ctrl+>" "#cccccc" "comfortaa 16" \
