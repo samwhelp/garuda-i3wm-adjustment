@@ -61,7 +61,7 @@ yad --width=990 --height=1390 \
 "Volume Decrease" "Fn+F11(XF86AudioLowerVolume)" "#cccccc" "comfortaa 16" \
 "Volume Increase" "Fn+F12(XF86AudioRaiseVolume)" "#ffffff" "comfortaa 16" \
 "Volume Toggle Mute" "Alt+m" "#cccccc" "comfortaa 16" \
-"Volume Decrease" "Alt+Shift+<" "#ffffff" "comfortaa 16" \
-"Volume Increase" "Alt+Shift+>" "#cccccc" "comfortaa 16" \
-"Volume Decrease Slowly" "Alt+Ctrl+<" "#ffffff" "comfortaa 16" \
-"Volume Increase Slowly" "Alt+Ctrl+>" "#cccccc" "comfortaa 16" \
+"Volume Decrease" "Alt+Shift+," "#ffffff" "comfortaa 16" \
+"Volume Increase" "Alt+Shift+." "#cccccc" "comfortaa 16" \
+"Volume Decrease Slowly" "Alt+Ctrl+," "#ffffff" "comfortaa 16" \
+"Volume Increase Slowly" "Alt+Ctrl+." "#cccccc" "comfortaa 16" \
