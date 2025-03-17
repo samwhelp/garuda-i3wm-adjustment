@@ -196,6 +196,22 @@ set $the_workspace_10 10:Game
 
 
 ################################################################################
+### Head: Attribute / Brightness / Base
+##
+
+
+##
+## ## Brightness
+##
+##
+
+
+##
+### Tail: Attribute / Brightness / Base
+################################################################################
+
+
+################################################################################
 ### Head: Attribute / Panel / Base
 ##
 
@@ -569,6 +585,7 @@ bindsym Mod4+m focus mode_toggle
 
 
 
+
 ## Focus to parent Container
 ## Win + p
 bindsym Mod4+p focus parent
@@ -579,6 +596,8 @@ bindsym Mod4+p focus parent
 bindsym Mod4+c focus child
 
 
+
+
 ## Focus to Previous Window
 ## Win + a
 bindsym Mod4+a focus prev
@@ -587,6 +606,8 @@ bindsym Mod4+a focus prev
 ## Focus to Next Window
 ## Win + s
 bindsym Mod4+s focus next
+
+
 
 
 ## Focus to Up Window
@@ -621,17 +642,18 @@ bindsym Mod4+l focus right
 ## https://i3wm.org/docs/userguide.html#_focusing_moving_containers
 
 
-
 ## Focus to Previous Window
 ## Win + [
-bindsym Mod4+bracketleft focus prev
+#bindsym Mod4+bracketleft focus prev
 
 ## Focus to Next Window
 ## Win + ]
-bindsym Mod4+bracketright focus next
+#bindsym Mod4+bracketright focus next
 
 
-## Must
+
+
+## > This Keybind Must Exists
 ## Focus to Up Window
 ## Win + Up
 bindsym Mod4+Up focus up
@@ -640,6 +662,8 @@ bindsym Mod4+Up focus up
 ## Focus to Down Window
 ## Win + Down
 bindsym Mod4+Down focus down
+
+
 
 
 ## Focus to Left Window
@@ -1251,6 +1275,38 @@ bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -q -D pulse sset Master
 
 ##
 ### Tail: Keybind / Volume
+################################################################################
+
+
+################################################################################
+### Head: Keybind / Brightness / Base
+##
+
+
+## Brightness Decrease
+## XF86MonBrightnessDown
+bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
+
+
+## Brightness Increase
+## XF86MonBrightnessUp
+bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
+
+
+
+
+## Brightness Decrease
+## Alt + Shift + [
+bindsym Mod1+Shift+bracketleft exec --no-startup-id brightnessctl set 5%-
+
+
+## Brightness Increase
+## Alt + Shift + ]
+bindsym Mod1+Shift+bracketright exec --no-startup-id brightnessctl set +5%
+
+
+##
+### Tail: Keybind / Brightness / Base
 ################################################################################
 
 
