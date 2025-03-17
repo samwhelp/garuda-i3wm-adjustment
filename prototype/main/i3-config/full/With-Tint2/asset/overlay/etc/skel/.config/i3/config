@@ -405,6 +405,27 @@ bindsym Mod1+Shift+b exec firedragon --new-tab about:blank
 
 
 ################################################################################
+### Head: Keybind / Application / Setting
+##
+
+
+## Launch Appearance Setting (lxappearance)
+## Alt + Shift + s
+bindsym Mod1+Shift+s exec lxappearance
+
+
+## Launch Display Setting (lxrandr)
+## Alt + Ctrl + s
+bindsym Mod1+Ctrl+s exec lxrandr
+
+
+
+##
+### Tail: Keybind / Application / Setting
+################################################################################
+
+
+################################################################################
 ### Head: Keybind / Application / Dmenu
 ##
 
