@@ -1130,7 +1130,7 @@ bindsym Mod1+i split toggle
 
 
 ################################################################################
-### Head: Keybind / Volume
+### Head: Keybind / Wallpaper
 ##
 
 
@@ -1149,7 +1149,7 @@ bindsym Mod1+w exec --no-startup-id feh --bg-fill --randomize ~/Pictures/Wallpap
 bindsym Mod1+Ctrl+w exec --no-startup-id feh --bg-fill ~/Pictures/Wallpaper/default.jpg
 
 ##
-### Tail: Keybind / Volume
+### Tail: Keybind / Wallpaper
 ################################################################################
 
 
@@ -1201,7 +1201,8 @@ bindsym Mod1+Print exec screengrab
 ##
 ## alsamixer (Package: alsa-utils)
 ## amixer (Package: alsa-utils)
-## pactl (Package: pulseaudio-utils)
+## pamixer (Package: pamixer)
+## pactl (Package: pulseaudio-utils or libpulse)
 ## pavucontrol (Package: pavucontrol)
 ## pavucontrol-qt (Package: pavucontrol-qt)
 ## mate-volume-control (Package: mate-media)
