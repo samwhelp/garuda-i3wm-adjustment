@@ -1,0 +1,39 @@
+#!/bin/sh
+
+yad --width=990 --height=1390 \
+--fixed \
+--center \
+--title="Garuda i3wm Keybindings" \
+--no-buttons \
+--list \
+--column=Command: \
+--column=Shortcut: \
+--column=@fore@ \
+--column=@font@ \
+--timeout=60 \
+--timeout-indicator=right \
+"" "" "#6500c1" "comfortaa 1" \
+"cheatsheet will be closed" "in one minute!" "#ff0000" "comfortaa 16" \
+"ESC close the cheatsheet"  " =  " "#00ffff" "comfortaa 16" \
+"open the cheatsheet"  " +shift+i" "#00ffff" "comfortaa 16" \
+"open terminal" " +enter" "#cccccc" "comfortaa 16" \
+"open browser" " +F1" "#ffffff" "comfortaa 16" \
+"open mail" " +F2" "#cccccc" "comfortaa 16" \
+"open filemanager" " +F3" "#ffffff" "comfortaa 16" \
+"open text" " +F4" "#cccccc" "comfortaa 16" \
+"application launcher" " +d" "#ffffff" "comfortaa 16" \
+"screenshot" "print" "#cccccc" "comfortaa 16" \
+"resize window" " +r" "#ffffff" "comfortaa 16" \
+"kill focused" " +c |  +q" "#cccccc" "comfortaa 16" \
+"toggle split direction" " +shift+q" "#ffffff" "comfortaa 16" \
+"toggle floating" " +space" "#cccccc" "comfortaa 16" \
+"toggle fullscreen" " +f" "#ffffff" "comfortaa 16" \
+"switch to workspace 1-8" " +1-8" "#cccccc" "comfortaa 16" \
+"send to workspace 1-8" " +shift+1-8" "#ffffff" "comfortaa 16" \
+"move to workspace 1-8" "alt+shift+1-8" "#cccccc" "comfortaa 16" \
+"navigate workspaces" " +ctrl+arrowkeys" "#ffffff" "comfortaa 16" \
+"navigate windows" " +shift+arrowkeys" "#cccccc" "comfortaa 16" \
+"change focus" " +arrowkeys" "#ffffff" "comfortaa 16" \
+"restart i3 inplace" " +shift+r" "#cccccc" "comfortaa 16" \
+"reload config file" " +shift+c" "#ffffff" "comfortaa 16" \
+"logout, reboot, shutdown " " +0" "#00ffff" "comfortaa 16" \
