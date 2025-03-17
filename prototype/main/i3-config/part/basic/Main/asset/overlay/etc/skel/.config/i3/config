@@ -327,7 +327,12 @@ bindsym Mod1+Shift+x exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 
 ## Shutdown
 ## Alt + Ctrl + z
-bindsym Mod1+Ctrl+z exec systemctl poweroff
+#bindsym Mod1+Ctrl+z exec systemctl poweroff
+
+
+## Shutdown
+## Alt + Ctrl + Delete
+bindsym Mod1+Ctrl+Delete exec systemctl poweroff
 
 
 ##
