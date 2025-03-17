@@ -497,6 +497,7 @@ bindsym Mod4+m focus mode_toggle
 
 
 
+
 ## Focus to parent Container
 ## Win + p
 bindsym Mod4+p focus parent
@@ -507,6 +508,8 @@ bindsym Mod4+p focus parent
 bindsym Mod4+c focus child
 
 
+
+
 ## Focus to Previous Window
 ## Win + a
 bindsym Mod4+a focus prev
@@ -515,6 +518,8 @@ bindsym Mod4+a focus prev
 ## Focus to Next Window
 ## Win + s
 bindsym Mod4+s focus next
+
+
 
 
 ## Focus to Up Window
@@ -1091,7 +1096,7 @@ bindsym Mod1+Print exec screengrab
 
 
 ################################################################################
-### Head: Keybind / Volume
+### Head: Keybind / Volume / pactl
 ##
 
 
@@ -1105,10 +1110,12 @@ bindsym Mod1+Print exec screengrab
 ## https://en.wikipedia.org/wiki/PulseAudio
 ##
 
+
 ##
 ## alsamixer (Package: alsa-utils)
 ## amixer (Package: alsa-utils)
-## pactl (Package: pulseaudio-utils)
+## pamixer (Package: pamixer)
+## pactl (Package: pulseaudio-utils or libpulse)
 ## pavucontrol (Package: pavucontrol)
 ## pavucontrol-qt (Package: pavucontrol-qt)
 ## mate-volume-control (Package: mate-media)
@@ -1123,6 +1130,7 @@ bindsym Mod1+Shift+v exec pavucontrol
 
 
 
+
 ##
 # https://askubuntu.com/questions/65764/how-do-i-toggle-sound-with-amixer
 # https://wiki.archlinux.org/index.php/PulseAudio#volume_control
@@ -1131,29 +1139,30 @@ bindsym Mod1+Shift+v exec pavucontrol
 # https://askubuntu.com/questions/872014/mute-button-doesnt-unmute
 ##
 
+
 ## VolumeToggleMute
 ## Alt + m
-bindsym Mod1+m exec --no-startup-id amixer -q -D pulse sset Master toggle
+bindsym Mod1+m exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle
 
 
 ## VolumeDecrease
 ## Alt + Shift + ,  (<)
-bindsym Mod1+Shift+comma exec --no-startup-id amixer -q -D pulse sset Master 5%- unmute
+bindsym Mod1+Shift+comma exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5%
 
 
 ## VolumeIncrease
 ## Alt + Shift + .  (>)
-bindsym Mod1+Shift+period exec --no-startup-id amixer -q -D pulse sset Master 5%+ unmute
+bindsym Mod1+Shift+period exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5%
 
 
 ## VolumeDecreaseSlowly
 ## Alt + Ctrl + .  (>)
-bindsym Mod1+Ctrl+comma exec --no-startup-id amixer -q -D pulse sset Master 1%- unmute
+bindsym Mod1+Ctrl+comma exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -1%
 
 
 ## VolumeIncreaseSlowly
 ## Alt + Ctrl + .  (>)
-bindsym Mod1+Ctrl+period exec --no-startup-id amixer -q -D pulse sset Master 1%+ unmute
+bindsym Mod1+Ctrl+period exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +1%
 
 
 ##
@@ -1167,21 +1176,26 @@ bindsym Mod1+Ctrl+period exec --no-startup-id amixer -q -D pulse sset Master 1%+
 
 ## VolumeToggleMute
 ## XF86AudioMute
-bindsym XF86AudioMute exec --no-startup-id amixer -q -D pulse sset Master toggle
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle
 
 
 ## VolumeDecrease
 ## XF86AudioLowerVolume
-bindsym XF86AudioLowerVolume exec --no-startup-id amixer -q -D pulse sset Master 5%- unmute
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -5%
 
 
 ## VolumeIncrease
 ## XF86AudioRaiseVolume
-bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -q -D pulse sset Master 5%+ unmute
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +5%
+
+
+## VolumeToggleMicMute
+## XF86AudioMicMute
+bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle
 
 
 ##
-### Tail: Keybind / Volume
+### Tail: Keybind / Volume / pactl
 ################################################################################
 
 
