@@ -17,10 +17,70 @@ i3
 
 
 ##
+## ## Package / Compositor
+##
+
+picom
+
+
+
+
+##
+## ## Package / Panel
+##
+
+tint2
+
+
+
+
+##
 ## ## Package / Wallpaper
 ##
 
 feh
+variety
+
+
+
+
+##
+## ## Package / Screenshot
+##
+
+screengrab
+
+
+
+
+##
+## ## Package / Brightness
+##
+
+brightnessctl
+
+
+
+
+##
+## ## Package / Volume
+##
+
+##
+## alsamixer (Package: alsa-utils)
+## amixer (Package: alsa-utils)
+## pamixer (Package: pamixer)
+## pactl (Package: pulseaudio-utils or libpulse)
+## pavucontrol (Package: pavucontrol)
+## pavucontrol-qt (Package: pavucontrol-qt)
+## mate-volume-control (Package: mate-media)
+##
+
+alsa-utils
+pamixer
+libpulse
+pavucontrol
+#mate-media
 
 
 
@@ -30,6 +90,7 @@ feh
 ##
 
 papirus-icon-theme
+#papirus-folders
 
 
 
@@ -38,21 +99,31 @@ papirus-icon-theme
 ## ## Package / Theme / Numix
 ##
 
-numix-gtk-theme
-numix-icon-theme
-numix-icon-theme-circle
-numix-icon-theme-square
-
+#numix-circle-icon-theme-git
+#numix-icon-theme-git
 
 
 
 
 ##
-## ## Package  / Theme / Arc
+## ## Package / Theme / Qogir
 ##
 
-arc-theme
-#arc-kde
+#qogir-gtk-theme-git
+#qogir-icon-theme-git
+#kvantum-theme-qogir-git
+
+
+
+
+##
+## ## Package / Theme / Arc
+##
+
+arc-gtk-theme
+#arc-icon-theme
+#arc-solid-gtk-theme
+
 
 
 
@@ -61,6 +132,7 @@ arc-theme
 ##
 
 materia-gtk-theme
+#materia-kde
 
 
 
@@ -69,6 +141,8 @@ materia-gtk-theme
 ## ## Package / Theme / Breeze
 ##
 
+#breeze
+#breeze-grub
+#breeze-icons
 #breeze-gtk
-#breeze-icon-theme
-breeze-cursor-theme
+#breeze-plymouth
