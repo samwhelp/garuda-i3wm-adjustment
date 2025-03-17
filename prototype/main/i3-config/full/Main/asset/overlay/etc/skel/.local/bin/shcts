@@ -32,18 +32,23 @@ yad --width=990 --height=1390 \
 "Launch Web Browser (firedragon)" "Alt+Shift+b" "#ffffff" "comfortaa 16" \
 "Launch Appearance Setting (lxappearance)" "Alt+Shift+s" "#cccccc" "comfortaa 16" \
 "Launch Display Setting (lxrandr)" "Alt+Ctrl+s" "#ffffff" "comfortaa 16" \
-"Window Close" "Win+q" "#cccccc" "comfortaa 16" \
-"Window Fullscreen" "Win+f" "#ffffff" "comfortaa 16" \
-"Window Toggle Float" "Win+Esc" "#cccccc" "comfortaa 16" \
-"Change focus between tiling / floating windows" "Win+grave" "#ffffff" "comfortaa 16" \
-"Window Move (on Floating)" "Win+Mouse Left Drag" "#cccccc" "comfortaa 16" \
-"Window Resize (on Floating)" "Win+Mouse Right Drag" "#ffffff" "comfortaa 16" \
-"Window Switch Prev" "Win+a" "#cccccc" "comfortaa 16" \
-"Window Switch Next" "Win+s" "#ffffff" "comfortaa 16" \
-"Workspace Switch Prev" "Alt+a" "#cccccc" "comfortaa 16" \
-"Workspace Switch Next" "Alt+s" "#ffffff" "comfortaa 16" \
-"Workspace Switch to 1-5" "Alt+1-5" "#cccccc" "comfortaa 16" \
-"Window Send to 1-5" "Win+1-5" "#ffffff" "comfortaa 16" \
-"Screenshot" "Print" "#cccccc" "comfortaa 16" \
+"Launch Terminal (xfce4-terminal)" "Alt+Enter" "#cccccc" "comfortaa 16" \
+"Launch Terminal (xfce4-terminal)" "Alt+Shift+a" "#ffffff" "comfortaa 16" \
+"Launch Terminal (sakur)" "Alt+Ctrl+a" "#cccccc" "comfortaa 16" \
+"Launch Terminal (qterminal)" "Alt+Shift+t" "#ffffff" "comfortaa 16" \
+"Launch Terminal (kitty)" "Alt+Ctrl+t" "#cccccc" "comfortaa 16" \
+"Window Close" "Win+q" "#ffffff" "comfortaa 16" \
+"Window Fullscreen" "Win+f" "#cccccc" "comfortaa 16" \
+"Window Toggle Float" "Win+Esc" "#ffffff" "comfortaa 16" \
+"Change focus between tiling / floating windows" "Win+grave" "#cccccc" "comfortaa 16" \
+"Window Move (on Floating)" "Win+Mouse Left Drag" "#ffffff" "comfortaa 16" \
+"Window Resize (on Floating)" "Win+Mouse Right Drag" "#cccccc" "comfortaa 16" \
+"Window Switch Prev" "Win+a" "#ffffff" "comfortaa 16" \
+"Window Switch Next" "Win+s" "#cccccc" "comfortaa 16" \
+"Workspace Switch Prev" "Alt+a" "#ffffff" "comfortaa 16" \
+"Workspace Switch Next" "Alt+s" "#cccccc" "comfortaa 16" \
+"Workspace Switch to 1-5" "Alt+1-5" "#ffffff" "comfortaa 16" \
+"Window Send to 1-5" "Win+1-5" "#cccccc" "comfortaa 16" \
+"Screenshot" "Print" "#ffffff" "comfortaa 16" \
 "Screenshot Current Window" "Win+Print" "#cccccc" "comfortaa 16" \
-"Screenshot Selected Area" "Win+Print" "#cccccc" "comfortaa 16" \
+"Screenshot Selected Area" "Win+Print" "#ffffff" "comfortaa 16" \
