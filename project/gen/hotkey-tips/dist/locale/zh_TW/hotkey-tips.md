@@ -1,6 +1,6 @@
 
 
-# Garuda i3wm 按鍵綁定
+# Garuda i3 按鍵綁定
 
 
 ## 快捷鍵
