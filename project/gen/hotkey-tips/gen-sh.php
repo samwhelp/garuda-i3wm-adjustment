@@ -11,6 +11,9 @@ class App {
 
 	protected $_TemplateFilePath = '';
 
+	protected $_TmpDirPath = '';
+
+
 	protected $_Color_1 = '#cccccc';
 	protected $_Color_2 = '#ffffff';
 
@@ -77,6 +80,8 @@ class App {
 
 		$this->_TemplateFilePath = __DIR__ . '/share/locale/' . $this->_Lang . '/view/gen-sh.view.php';
 
+		$this->_TmpDirPath = __DIR__ . '/tmp';
+
 		return;
 	}
 
@@ -88,7 +93,7 @@ class App {
 	protected function doRun ()
 	{
 
-		$tmp_dir_path = __DIR__ . '/tmp';
+		$tmp_dir_path = $this->_TmpDirPath;
 
 		$target_file_path = $tmp_dir_path . '/hotkey-tips.sh';
 
