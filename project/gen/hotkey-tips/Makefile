@@ -10,7 +10,11 @@ help:
 	@echo '	$$ make'
 	@echo '	$$ make help'
 	@echo
+	@echo '	$$ make all'
+	@echo
 	@echo '	$$ make gen-sh'
+	@echo '	$$ make gen-md'
+	@echo '	$$ make gen-tsv'
 	@echo
 .PHONY: help
 
