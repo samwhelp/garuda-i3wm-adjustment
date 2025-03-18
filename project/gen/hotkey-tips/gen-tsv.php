@@ -7,6 +7,13 @@ class App {
 
 	protected $_Lang = 'en_US';
 
+	public function setLang ($val) {
+
+		$this->_Lang = $val;
+
+		return $this;
+	}
+
 	protected $_List = array();
 
 	protected $_TemplateFilePath = '';
