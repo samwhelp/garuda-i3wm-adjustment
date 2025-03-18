@@ -6,8 +6,8 @@ yad --width=1000 --height=600 \
 --title="Garuda i3wm 按鍵綁定" \
 --no-buttons \
 --list \
---column=Keybind: \
---column=Action: \
+--column=按鍵綁定: \
+--column=執行動作: \
 --column=@fore@ \
 --column=@font@ \
 --timeout=15 \
