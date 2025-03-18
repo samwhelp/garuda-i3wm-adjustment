@@ -16,10 +16,27 @@ help:
 
 
 
+all: gen-sh gen-md gen-tsv
+.PHONY: all
+
 
 gen-sh:
 	./gen-sh.php
 .PHONY: gen-sh
+
+
+gen-md:
+	./gen-md.php
+.PHONY: gen-md
+
+
+gen-tsv:
+	./gen-tsv.php
+.PHONY: gen-tsv
+
+
+
+
 
 
 
