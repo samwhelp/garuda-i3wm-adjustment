@@ -7,7 +7,7 @@
 
 	$item = array();
 	$item['Keybind'] = "Alt + Shift + o";
-	$item['Action'] = "Open the cheatsheet";
+	$item['Action'] = "Open this cheatsheet";
 	$list[] = $item;
 
 	$item = array();
