@@ -31,13 +31,17 @@ class App {
 
 		foreach ($this->_List as $key => $item) {
 
-			$rtn .= '"';
+			$rtn .= '|';
+			$rtn .= ' ';
+			$rtn .= '`';
 			$rtn .= $item['Keybind'];
-			$rtn .= '"';
-			$rtn .= "\t";
-			$rtn .= '"';
+			$rtn .= '`';
+			$rtn .= ' ';
+			$rtn .= '|';
+			$rtn .= ' ';
 			$rtn .= $item['Action'];
-			$rtn .= '"';
+			$rtn .= ' ';
+			$rtn .= '|';
 			$rtn .= PHP_EOL;
 
 		}
@@ -69,7 +73,7 @@ class App {
 
 		$tmp_dir_path = __DIR__ . '/tmp';
 
-		$target_file_path = $tmp_dir_path . '/hotkey-tips.tsv';
+		$target_file_path = $tmp_dir_path . '/hotkey-tips.md';
 
 		if (!file_exists($tmp_dir_path)) {
 			if (!mkdir($tmp_dir_path, 0777, true)) {
@@ -79,7 +83,7 @@ class App {
 
 
 
-		$template_file_path = __DIR__ . '/share/locale/' . $this->_Lang . '/view/gen-tsv.view.php';
+		$template_file_path = __DIR__ . '/share/locale/' . $this->_Lang . '/view/gen-md.view.php';
 
 		$data = array();
 		$data['List'] = $this->createList();
