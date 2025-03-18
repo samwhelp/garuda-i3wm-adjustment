@@ -10,7 +10,7 @@ yad --width=1000 --height=600 \
 --column=Action: \
 --column=@fore@ \
 --column=@font@ \
---timeout=60 \
+--timeout=10 \
 --timeout-indicator=right \
 "" "" "#6500c1" "comfortaa 1" \
 "" "Cheatsheet will be closed in one minute!" "#ff0000" "comfortaa 16" \
