@@ -1,67 +1,66 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
-yad --width=990 --height=1390 \
---fixed \
+yad --width=1000 --height=600 \
 --center \
 --title="Garuda i3wm Keybindings" \
 --no-buttons \
 --list \
---column=Command: \
---column=Shortcut: \
+--column=Keybind: \
+--column=Action: \
 --column=@fore@ \
 --column=@font@ \
---timeout=60 \
+--timeout=15 \
 --timeout-indicator=right \
 "" "" "#6500c1" "comfortaa 1" \
-"Cheatsheet will be closed" "in one minute!" "#ff0000" "comfortaa 16" \
-"ESC close the cheatsheet"  "ESC" "#00ffff" "comfortaa 16" \
-"Open the cheatsheet"  "Alt+Shift+o" "#00ffff" "comfortaa 16" \
-"Logout" "Alt+Shift+x" "#cccccc" "comfortaa 16" \
-"Leave" "Alt+Shift+z" "#ffffff" "comfortaa 16" \
-"i3 Restart" "Alt+Shift+c" "#cccccc" "comfortaa 16" \
-"i3 Reload" "Alt+Ctrl+c" "#ffffff" "comfortaa 16" \
-"Main Menu" "Alt+F1" "#cccccc" "comfortaa 16" \
-"Runner" "Alt+F2" "#ffffff" "comfortaa 16" \
-"Window List" "Alt+F3" "#cccccc" "comfortaa 16" \
-"Rofi Show Drun" "Alt+Shift+d" "#ffffff" "comfortaa 16" \
-"Rofi Show Run" "Alt+Shift+r" "#cccccc" "comfortaa 16" \
-"Rofi Show Window" "Alt+Shift+w" "#ffffff" "comfortaa 16" \
-"Launch File Manager (thunar)" "Alt+Shift+f" "#cccccc" "comfortaa 16" \
-"Launch File Manager (pcmanfm-qt)" "Alt+Shift+g" "#ffffff" "comfortaa 16" \
-"Launch Text Editor (geany)" "Alt+Shift+e" "#cccccc" "comfortaa 16" \
-"Launch Web Browser (firedragon)" "Alt+Shift+b" "#ffffff" "comfortaa 16" \
-"Launch Appearance Setting (lxappearance)" "Alt+Shift+s" "#cccccc" "comfortaa 16" \
-"Launch Display Setting (lxrandr)" "Alt+Ctrl+s" "#ffffff" "comfortaa 16" \
-"Launch Terminal (xfce4-terminal)" "Alt+Enter" "#cccccc" "comfortaa 16" \
-"Launch Terminal (xfce4-terminal)" "Alt+Shift+a" "#ffffff" "comfortaa 16" \
-"Launch Terminal (sakur)" "Alt+Ctrl+a" "#cccccc" "comfortaa 16" \
-"Launch Terminal (qterminal)" "Alt+Shift+t" "#ffffff" "comfortaa 16" \
-"Launch Terminal (kitty)" "Alt+Ctrl+t" "#cccccc" "comfortaa 16" \
-"Window Close" "Win+q" "#ffffff" "comfortaa 16" \
-"Window Fullscreen" "Win+f" "#cccccc" "comfortaa 16" \
-"Window Toggle Float" "Win+Esc" "#ffffff" "comfortaa 16" \
-"Change focus between tiling / floating windows" "Win+grave" "#cccccc" "comfortaa 16" \
-"Window Move (on Floating)" "Win+Mouse Left Drag" "#ffffff" "comfortaa 16" \
-"Window Resize (on Floating)" "Win+Mouse Right Drag" "#cccccc" "comfortaa 16" \
-"Window Switch Prev" "Win+a" "#ffffff" "comfortaa 16" \
-"Window Switch Next" "Win+s" "#cccccc" "comfortaa 16" \
-"Workspace Switch Prev" "Alt+a" "#ffffff" "comfortaa 16" \
-"Workspace Switch Next" "Alt+s" "#cccccc" "comfortaa 16" \
-"Workspace Switch to 1-5" "Alt+1-5" "#ffffff" "comfortaa 16" \
-"Window Send to 1-5" "Win+1-5" "#cccccc" "comfortaa 16" \
-"Screenshot" "Print" "#ffffff" "comfortaa 16" \
-"Screenshot Current Window" "Win+Print" "#cccccc" "comfortaa 16" \
-"Screenshot Selected Area" "Win+Print" "#ffffff" "comfortaa 16" \
-"Brightness Decrease" "Fn+F5(XF86MonBrightnessDown)" "#cccccc" "comfortaa 16" \
-"Brightness Increase" "Fn+F6(XF86MonBrightnessUp)" "#ffffff" "comfortaa 16" \
-"Brightness Decrease" "Alt+Shift+[" "#cccccc" "comfortaa 16" \
-"Brightness Increase" "Alt+Shift+]" "#ffffff" "comfortaa 16" \
-"Launch Volume Control (pavucontrol)" "Alt+Shift+v" "#cccccc" "comfortaa 16" \
-"Volume Toggle Mute" "Fn+F10(XF86AudioMute)" "#ffffff" "comfortaa 16" \
-"Volume Decrease" "Fn+F11(XF86AudioLowerVolume)" "#cccccc" "comfortaa 16" \
-"Volume Increase" "Fn+F12(XF86AudioRaiseVolume)" "#ffffff" "comfortaa 16" \
-"Volume Toggle Mute" "Alt+m" "#cccccc" "comfortaa 16" \
-"Volume Decrease" "Alt+Shift+," "#ffffff" "comfortaa 16" \
-"Volume Increase" "Alt+Shift+." "#cccccc" "comfortaa 16" \
-"Volume Decrease Slowly" "Alt+Ctrl+," "#ffffff" "comfortaa 16" \
-"Volume Increase Slowly" "Alt+Ctrl+." "#cccccc" "comfortaa 16" \
+"" "Cheatsheet will be closed in one minute!" "#ff0000" "comfortaa 16" \
+""  "ESC close this cheatsheet" "#00ffff" "comfortaa 16" \
+"Alt + Shift + o" "Open this cheatsheet" "#ffffff" "comfortaa 16" \
+"Alt + Shift + x" "Logout" "#cccccc" "comfortaa 16" \
+"Alt + Shift + z" "Leave" "#ffffff" "comfortaa 16" \
+"Alt + Shift + c" "i3 Restart" "#cccccc" "comfortaa 16" \
+"Alt + Ctrl + c" "i3 Reload" "#ffffff" "comfortaa 16" \
+"Alt + F1" "Main Menu" "#cccccc" "comfortaa 16" \
+"Alt + F2" "Runner" "#ffffff" "comfortaa 16" \
+"Alt + F3" "Window List" "#cccccc" "comfortaa 16" \
+"Alt + Shift + d" "Rofi Show Drun" "#ffffff" "comfortaa 16" \
+"Alt + Shift + r" "Rofi Show Run" "#cccccc" "comfortaa 16" \
+"Alt + Shift + w" "Rofi Show Window" "#ffffff" "comfortaa 16" \
+"Alt + Shift + f" "Launch File Manager (thunar)" "#cccccc" "comfortaa 16" \
+"Alt + Shift + g" "Launch File Manager (pcmanfm-qt)" "#ffffff" "comfortaa 16" \
+"Alt + Shift + e" "Launch Text Editor (geany)" "#cccccc" "comfortaa 16" \
+"Alt + Shift + b" "Launch Web Browser (firedragon)" "#ffffff" "comfortaa 16" \
+"Alt + Shift + s" "Launch Appearance Setting (lxappearance)" "#cccccc" "comfortaa 16" \
+"Alt + Ctrl + s" "Launch Display Setting (lxrandr)" "#ffffff" "comfortaa 16" \
+"Alt + Enter" "Launch Terminal (xfce4-terminal)" "#cccccc" "comfortaa 16" \
+"Alt + Shift + a" "Launch Terminal (xfce4-terminal)" "#ffffff" "comfortaa 16" \
+"Alt + Ctrl + a" "Launch Terminal (sakur)" "#cccccc" "comfortaa 16" \
+"Alt + Shift + t" "Launch Terminal (qterminal)" "#ffffff" "comfortaa 16" \
+"Alt + Ctrl + t" "Launch Terminal (kitty)" "#cccccc" "comfortaa 16" \
+"Win + q" "Window Close" "#ffffff" "comfortaa 16" \
+"Win + f" "Window Fullscreen" "#cccccc" "comfortaa 16" \
+"Win + Esc" "Window Toggle Float" "#ffffff" "comfortaa 16" \
+"Win + grave" "Change focus between tiling / floating windows" "#cccccc" "comfortaa 16" \
+"Win + Mouse Left Drag" "Window Move (on Floating)" "#ffffff" "comfortaa 16" \
+"Win + Mouse Right Drag" "Window Resize (on Floating)" "#cccccc" "comfortaa 16" \
+"Win + a" "Window Switch Prev" "#ffffff" "comfortaa 16" \
+"Win + s" "Window Switch Next" "#cccccc" "comfortaa 16" \
+"Alt + a" "Workspace Switch Prev" "#ffffff" "comfortaa 16" \
+"Alt + s" "Workspace Switch Next" "#cccccc" "comfortaa 16" \
+"Alt + 1-5" "Workspace Switch to 1-5" "#ffffff" "comfortaa 16" \
+"Win + 1-5" "Window Send to 1-5" "#cccccc" "comfortaa 16" \
+"Print" "Screenshot" "#ffffff" "comfortaa 16" \
+"Win + Print" "Screenshot Current Window" "#cccccc" "comfortaa 16" \
+"Ctrl + Print" "Screenshot Selected Area" "#ffffff" "comfortaa 16" \
+"Fn + F5 (XF86MonBrightnessDown)" "Brightness Decrease" "#cccccc" "comfortaa 16" \
+"Fn + F6 (XF86MonBrightnessUp)" "Brightness Increase" "#ffffff" "comfortaa 16" \
+"Alt + Shift + [" "Brightness Decrease" "#cccccc" "comfortaa 16" \
+"Alt + Shift + ]" "Brightness Increase" "#ffffff" "comfortaa 16" \
+"Alt + Shift + v" "Launch Volume Control (pavucontrol)" "#cccccc" "comfortaa 16" \
+"Fn + F10 (XF86AudioMute)" "Volume Toggle Mute" "#ffffff" "comfortaa 16" \
+"Fn + F11 (XF86AudioLowerVolume)" "Volume Decrease" "#cccccc" "comfortaa 16" \
+"Fn + F12 (XF86AudioRaiseVolume)" "Volume Increase" "#ffffff" "comfortaa 16" \
+"Alt + m" "Volume Toggle Mute" "#cccccc" "comfortaa 16" \
+"Alt + Shift + ," "Volume Decrease" "#ffffff" "comfortaa 16" \
+"Alt + Shift + ." "Volume Increase" "#cccccc" "comfortaa 16" \
+"Alt + Ctrl + ," "Volume Decrease Slowly" "#ffffff" "comfortaa 16" \
+"Alt + Ctrl + ." "Volume Increase Slowly" "#cccccc" "comfortaa 16" \
