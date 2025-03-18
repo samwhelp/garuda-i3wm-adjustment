@@ -108,6 +108,8 @@ class App {
 
 		file_put_contents($target_file_path, $content);
 
+		chmod($target_file_path, 0755);
+
 	}
 
 }
