@@ -13,6 +13,8 @@ class App {
 
 	protected $_TmpDirPath = '';
 
+	protected $_TargetDirPath = '';
+
 
 	protected function is_even ($val) {
 
@@ -64,6 +66,8 @@ class App {
 
 		$this->_TmpDirPath = __DIR__ . '/tmp';
 
+		$this->_TargetDirPath = $this->_TmpDirPath . '/locale/' . $this->_Lang;
+
 		return;
 	}
 
@@ -75,12 +79,12 @@ class App {
 	protected function doRun ()
 	{
 
-		$tmp_dir_path = $this->_TmpDirPath;
+		$target_dir_path = $this->_TargetDirPath;
 
-		$target_file_path = $tmp_dir_path . '/hotkey-tips.md';
+		$target_file_path = $target_dir_path . '/hotkey-tips.md';
 
-		if (!file_exists($tmp_dir_path)) {
-			if (!mkdir($tmp_dir_path, 0777, true)) {
+		if (!file_exists($target_dir_path)) {
+			if (!mkdir($target_dir_path, 0777, true)) {
 				die('Failed to create directories...');
 			}
 		}
