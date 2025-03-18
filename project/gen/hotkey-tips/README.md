@@ -3,6 +3,7 @@
 # hotkey-tips-gen
 
 * [Usage](#usage)
+* [Result](#result)
 
 
 
@@ -41,3 +42,14 @@ Ex:
 	$ make gen-tsv
 
 ```
+
+
+
+
+## Result
+
+| hotkey-tips |
+| ----------- |
+| [hotkey-tips.md](https://github.com/samwhelp/garuda-i3wm-adjustment/blob/main/project/gen/hotkey-tips/dist/locale/en_US/hotkey-tips.md) |
+| [hotkey-tips.tsv](https://github.com/samwhelp/garuda-i3wm-adjustment/blob/main/project/gen/hotkey-tips/dist/locale/en_US/hotkey-tips.tsv) |
+| [hotkey-tips.sh](https://github.com/samwhelp/garuda-i3wm-adjustment/blob/main/project/gen/hotkey-tips/dist/locale/en_US/hotkey-tips.sh) |
