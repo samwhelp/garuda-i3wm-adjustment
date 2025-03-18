@@ -42,7 +42,7 @@ class App {
 	{
 		$rtn = '';
 
-		foreach ($this->_List as $key => $item) {
+		foreach ((array) $this->_List as $key => $item) {
 
 			$rtn .= '|';
 			$rtn .= ' ';
@@ -131,7 +131,7 @@ function __main__ ()
 		'zh_TW'
 	);
 
-	foreach ($lang_list as $key => $lang) {
+	foreach ((array) $lang_list as $key => $lang) {
 
 		(new App)
 			->setLang($lang)
