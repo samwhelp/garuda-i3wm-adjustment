@@ -9,25 +9,35 @@
 
 ## Usage
 
+
+### help
+
 run
 
 ``` sh
-make test
+make
 ```
 
-or run
+run
 
 ``` sh
-./main.php
+make help
 ```
 
-or run
+show
 
-``` sh
-php main.php
 ```
+Usage:
+	$ make [action]
 
+Ex:
+	$ make
+	$ make help
 
+	$ make all
 
+	$ make gen-sh
+	$ make gen-md
+	$ make gen-tsv
 
-
+```
