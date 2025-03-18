@@ -12,8 +12,8 @@ yad --width=1000 --height=600 \
 --timeout=15 \
 --timeout-indicator=right \
 "" "" "#6500c1" "comfortaa 1" \
-"" "Cheatsheet will be closed in one minute!" "#ff0000" "comfortaa 16" \
-""  "ESC close this cheatsheet" "#00ffff" "comfortaa 16" \
+"" "Cheatsheet will be closed in 15 seconds!" "#ff0000" "comfortaa 16" \
+""  "ESC to close this cheatsheet" "#00ffff" "comfortaa 16" \
 "Alt + Shift + o" "Open this cheatsheet" "#ffffff" "comfortaa 16" \
 "Alt + Shift + x" "Logout" "#cccccc" "comfortaa 16" \
 "Alt + Shift + z" "Leave" "#ffffff" "comfortaa 16" \
