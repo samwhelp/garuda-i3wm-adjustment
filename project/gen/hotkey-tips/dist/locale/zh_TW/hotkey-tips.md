@@ -45,9 +45,9 @@
 | `Win + Print` | 螢幕截圖 / 目前聚焦的視窗 |
 | `Ctrl + Print` | 螢幕截圖 / 選取的區域 |
 | `Fn + F5 (XF86MonBrightnessDown)` | 亮度 / 減弱 |
-| `Fn + F6 (XF86MonBrightnessUp)` | 亮度 / 增加 |
+| `Fn + F6 (XF86MonBrightnessUp)` | 亮度 / 增強 |
 | `Alt + Shift + [` | 亮度 / 減弱 |
-| `Alt + Shift + ]` | 亮度 / 增加 |
+| `Alt + Shift + ]` | 亮度 / 增強 |
 | `Alt + Shift + v` | 開啟音量控制器 (pavucontrol) |
 | `Fn + F10 (XF86AudioMute)` | 音量 / 切換靜音 |
 | `Fn + F11 (XF86AudioLowerVolume)` | 音量 / 減小 |

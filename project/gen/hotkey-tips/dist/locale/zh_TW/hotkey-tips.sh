@@ -52,9 +52,9 @@ yad --width=1000 --height=600 \
 "Win + Print" "螢幕截圖 / 目前聚焦的視窗" "#cccccc" "comfortaa 16" \
 "Ctrl + Print" "螢幕截圖 / 選取的區域" "#ffffff" "comfortaa 16" \
 "Fn + F5 (XF86MonBrightnessDown)" "亮度 / 減弱" "#cccccc" "comfortaa 16" \
-"Fn + F6 (XF86MonBrightnessUp)" "亮度 / 增加" "#ffffff" "comfortaa 16" \
+"Fn + F6 (XF86MonBrightnessUp)" "亮度 / 增強" "#ffffff" "comfortaa 16" \
 "Alt + Shift + [" "亮度 / 減弱" "#cccccc" "comfortaa 16" \
-"Alt + Shift + ]" "亮度 / 增加" "#ffffff" "comfortaa 16" \
+"Alt + Shift + ]" "亮度 / 增強" "#ffffff" "comfortaa 16" \
 "Alt + Shift + v" "開啟音量控制器 (pavucontrol)" "#cccccc" "comfortaa 16" \
 "Fn + F10 (XF86AudioMute)" "音量 / 切換靜音" "#ffffff" "comfortaa 16" \
 "Fn + F11 (XF86AudioLowerVolume)" "音量 / 減小" "#cccccc" "comfortaa 16" \

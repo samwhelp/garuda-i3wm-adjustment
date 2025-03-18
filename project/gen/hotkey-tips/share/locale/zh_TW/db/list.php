@@ -197,7 +197,7 @@
 
 	$item = array();
 	$item['Keybind'] = "Fn + F6 (XF86MonBrightnessUp)";
-	$item['Action'] = "亮度 / 增加";
+	$item['Action'] = "亮度 / 增強";
 	$list[] = $item;
 
 	$item = array();
@@ -207,7 +207,7 @@
 
 	$item = array();
 	$item['Keybind'] = "Alt + Shift + ]";
-	$item['Action'] = "亮度 / 增加";
+	$item['Action'] = "亮度 / 增強";
 	$list[] = $item;
 
 	$item = array();
