@@ -120,6 +120,8 @@ class App {
 
 
 
+function __main__ ()
+{
 	$lang_list = array(
 		'en_US',
 		'zh_TW'
@@ -132,3 +134,7 @@ class App {
 			->run();
 
 	}
+
+}
+
+__main__();
