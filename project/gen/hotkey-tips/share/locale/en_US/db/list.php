@@ -2,6 +2,14 @@
 
 	$list = array();
 
+
+
+
+	$item = array();
+	$item['Keybind'] = "Alt+Shift+o";
+	$item['Action'] = "Open the cheatsheet";
+	$list[] = $item;
+
 	$item = array();
 	$item['Keybind'] = "Alt + Shift + x";
 	$item['Action'] = "Logout";
