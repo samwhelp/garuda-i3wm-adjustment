@@ -1,4 +1,5 @@
-#!/usr/bin/env bash
+<?php echo($_Data_['Shebang']); ?>
+
 
 yad --width=990 --height=1390 \
 --fixed \

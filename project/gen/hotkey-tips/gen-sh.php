@@ -100,6 +100,7 @@ class App {
 
 		$data = array();
 		$data['List'] = $this->createList();
+		$data['Shebang'] = '#!/usr/bin/env bash';
 
 		$view = new \Demo\ViewUtil;
 
