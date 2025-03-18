@@ -150,7 +150,7 @@ function __main__ ()
 		'zh_TW'
 	);
 
-	foreach ($lang_list as $key=> $lang) {
+	foreach ($lang_list as $key => $lang) {
 
 		(new App)
 			->setLang($lang)
