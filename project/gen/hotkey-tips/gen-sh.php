@@ -7,7 +7,8 @@ class App {
 
 	protected $_Lang = 'en_US';
 
-	public function setLang ($val) {
+	public function setLang ($val)
+	{
 
 		$this->_Lang = $val;
 
@@ -30,7 +31,8 @@ class App {
 
 	protected $_Font = 'comfortaa 16';
 
-	protected function is_even ($val) {
+	protected function is_even ($val)
+	{
 
 		$val = intval($val);
 

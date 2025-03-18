@@ -7,7 +7,8 @@ class App {
 
 	protected $_Lang = 'en_US';
 
-	public function setLang ($val) {
+	public function setLang ($val)
+	{
 
 		$this->_Lang = $val;
 
@@ -25,7 +26,8 @@ class App {
 	protected $_TargetFileName = 'hotkey-tips.md';
 
 
-	protected function is_even ($val) {
+	protected function is_even ($val)
+	{
 
 		$val = intval($val);
 
