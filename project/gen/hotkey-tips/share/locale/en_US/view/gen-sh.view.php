@@ -1,8 +1,7 @@
 <?php echo($_Data_['Shebang']); ?>
 
 
-yad --width=990 --height=1390 \
---fixed \
+yad --width=1000 --height=600 \
 --center \
 --title="Garuda i3wm Keybindings" \
 --no-buttons \
