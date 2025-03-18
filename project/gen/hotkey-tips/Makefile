@@ -24,6 +24,17 @@ gen-sh:
 
 
 
+
+archlinux-prepare:
+	sudo pacman -Sy --needed php
+.PHONY: archlinux-prepare
+
+
 debian-prepare:
 	sudo apt-get install php-cli
 .PHONY: debian-prepare
+
+
+fedora-prepare:
+	sudo dnf install php-cli
+.PHONY: fedora-prepare
