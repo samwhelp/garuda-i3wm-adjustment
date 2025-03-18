@@ -9,10 +9,8 @@ class App {
 
 	protected $_List = array();
 
-	protected $_Color_1 = '#cccccc';
-	protected $_Color_2 = '#ffffff';
+	protected $_TemplateFilePath = '';
 
-	protected $_Font = 'comfortaa 16';
 
 	protected function is_even ($val) {
 
@@ -56,6 +54,8 @@ class App {
 	{
 		$this->_List = include(__DIR__ . '/share/locale/' . $this->_Lang . '/db/list.php');
 
+		$this->_TemplateFilePath = __DIR__ . '/share/locale/' . $this->_Lang . '/view/gen-tsv.view.php';
+
 		return;
 	}
 
@@ -79,7 +79,7 @@ class App {
 
 
 
-		$template_file_path = __DIR__ . '/share/locale/' . $this->_Lang . '/view/gen-tsv.view.php';
+		$template_file_path = $this->_TemplateFilePath;
 
 		$data = array();
 		$data['List'] = $this->createList();
