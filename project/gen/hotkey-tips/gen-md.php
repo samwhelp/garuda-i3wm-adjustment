@@ -120,4 +120,17 @@ class App {
 }
 
 
-	(new App)->run();
+
+
+	$lang_list = array(
+		'en_US',
+		'zh_TW'
+	);
+
+	foreach ($lang_list as $key=> $lang) {
+
+		(new App)
+			->setLang($lang)
+			->run();
+
+	}
