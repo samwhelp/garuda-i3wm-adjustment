@@ -15,6 +15,8 @@ class App {
 
 	protected $_TargetDirPath = '';
 
+	protected $_TargetFileName = 'hotkey-tips.sh';
+
 
 	protected $_Color_1 = '#cccccc';
 	protected $_Color_2 = '#ffffff';
@@ -97,9 +99,11 @@ class App {
 	protected function doRun ()
 	{
 
+		$target_file_name = $this->_TargetFileName;
+
 		$target_dir_path = $this->_TargetDirPath;
 
-		$target_file_path = $target_dir_path . '/hotkey-tips.sh';
+		$target_file_path = $target_dir_path . '/' . $target_file_name;
 
 		if (!file_exists($target_dir_path)) {
 			if (!mkdir($target_dir_path, 0777, true)) {

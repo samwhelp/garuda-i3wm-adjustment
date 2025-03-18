@@ -15,6 +15,8 @@ class App {
 
 	protected $_TargetDirPath = '';
 
+	protected $_TargetFileName = 'hotkey-tips.tsv';
+
 
 	protected function is_even ($val) {
 
@@ -75,9 +77,11 @@ class App {
 	protected function doRun ()
 	{
 
+		$target_file_name = $this->_TargetFileName;
+
 		$target_dir_path = $this->_TargetDirPath;
 
-		$target_file_path = $target_dir_path . '/hotkey-tips.tsv';
+		$target_file_path = $target_dir_path . '/' . $target_file_name;
 
 		if (!file_exists($target_dir_path)) {
 			if (!mkdir($target_dir_path, 0777, true)) {
