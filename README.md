@@ -22,5 +22,5 @@
 
 | Script |
 | ---- |
-| [Garuda I3wm Config](https://github.com/samwhelp/garuda-i3wm-adjustment) |
+| [Garuda I3wm Config](https://github.com/samwhelp/garuda-i3wm-adjustment/tree/main/prototype/main/i3-config/full/Main) |
 | [Tool Config](https://github.com/samwhelp/garuda-adjustment/tree/main/prototype/main/tool-config/part) |
