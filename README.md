@@ -8,6 +8,8 @@
 | [Garuda I3wm Note](https://samwhelp.github.io/note-about-garuda-i3wm/) | [GitHub](https://github.com/samwhelp/note-about-garuda-i3wm) |
 | [Garuda Adjustment](https://samwhelp.github.io/garuda-adjustment/) | [GitHub](https://github.com/samwhelp/garuda-adjustment) |
 
+> [Keybind Cheatsheet](https://samwhelp.github.io/garuda-kde-plasma-adjustment/read/cheatsheet/keybind.html)
+
 
 
 
