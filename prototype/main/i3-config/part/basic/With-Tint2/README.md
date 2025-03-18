@@ -1,6 +1,6 @@
 
 
-# Hyprland Config
+# I3wm Config
 
 * [Config File Path](#config-file-path)
 * [Fedora Package](#fedora-package)
@@ -11,7 +11,7 @@
 
 ## Config File Path
 
-* [hyprland](#hyprland)
+* [i3](#i3)
 * [wallpaper](#wallpaper)
 * [panel](#panel)
 * [default-cursor-theme](#default-cursor-theme)
@@ -29,11 +29,13 @@
 * [sakura](#sakura)
 
 
-### hyprland
+### i3
 
 | Config File Path |
 | --- |
-| [~/.config/hypr/hyprland.conf](./asset/overlay/etc/skel/.config/hypr/hyprland.conf) |
+| [~/.config/i3/config](./asset/overlay/etc/skel/.config/i3/config) |
+| [~/.config/i3/autostart](./asset/overlay/etc/skel/.config/i3/autostart) |
+| [~/.config/i3/autostart-module](./asset/overlay/etc/skel/.config/i3/autostart-module) |
 
 
 ### wallpaper
