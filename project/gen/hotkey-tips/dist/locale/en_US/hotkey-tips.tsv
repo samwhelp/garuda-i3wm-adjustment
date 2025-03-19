@@ -23,7 +23,7 @@
 "Alt + Ctrl + t"	"Launch Terminal (kitty)"
 "Win + q"	"Window Close"
 "Win + f"	"Window Fullscreen"
-"Win + Esc"	"Window Toggle Float"
+"Win + Esc"	"Window Toggle Floating or Tiling"
 "Win + grave"	"Change focus between tiling / floating windows"
 "Win + Mouse Left Drag"	"Window Move (on Floating)"
 "Win + Mouse Right Drag"	"Window Resize (on Floating)"

@@ -38,7 +38,7 @@ yad --width=1000 --height=600 \
 "Alt + Ctrl + t" "Launch Terminal (kitty)" "#cccccc" "comfortaa 16" \
 "Win + q" "Window Close" "#ffffff" "comfortaa 16" \
 "Win + f" "Window Fullscreen" "#cccccc" "comfortaa 16" \
-"Win + Esc" "Window Toggle Float" "#ffffff" "comfortaa 16" \
+"Win + Esc" "Window Toggle Floating or Tiling" "#ffffff" "comfortaa 16" \
 "Win + grave" "Change focus between tiling / floating windows" "#cccccc" "comfortaa 16" \
 "Win + Mouse Left Drag" "Window Move (on Floating)" "#ffffff" "comfortaa 16" \
 "Win + Mouse Right Drag" "Window Resize (on Floating)" "#cccccc" "comfortaa 16" \

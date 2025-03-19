@@ -127,7 +127,7 @@
 
 	$item = array();
 	$item['Keybind'] = "Win + Esc";
-	$item['Action'] = "Window Toggle Float";
+	$item['Action'] = "Window Toggle Floating or Tiling";
 	$list[] = $item;
 
 	$item = array();
