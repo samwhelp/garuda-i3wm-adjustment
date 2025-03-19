@@ -42,9 +42,9 @@ yad --width=1000 --height=600 \
 "Win + grave" "Change focus between tiling / floating windows" "#cccccc" "comfortaa 16" \
 "Win + Mouse Left Drag" "Window Move (on Floating)" "#ffffff" "comfortaa 16" \
 "Win + Mouse Right Drag" "Window Resize (on Floating)" "#cccccc" "comfortaa 16" \
-"Win + a" "Window Switch Prev" "#ffffff" "comfortaa 16" \
+"Win + a" "Window Switch Previous" "#ffffff" "comfortaa 16" \
 "Win + s" "Window Switch Next" "#cccccc" "comfortaa 16" \
-"Alt + a" "Workspace Switch Prev" "#ffffff" "comfortaa 16" \
+"Alt + a" "Workspace Switch Previous" "#ffffff" "comfortaa 16" \
 "Alt + s" "Workspace Switch Next" "#cccccc" "comfortaa 16" \
 "Alt + 1-5" "Workspace Switch to 1-5" "#ffffff" "comfortaa 16" \
 "Win + 1-5" "Window Send to 1-5" "#cccccc" "comfortaa 16" \

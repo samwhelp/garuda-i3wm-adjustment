@@ -147,7 +147,7 @@
 
 	$item = array();
 	$item['Keybind'] = "Win + a";
-	$item['Action'] = "Window Switch Prev";
+	$item['Action'] = "Window Switch Previous";
 	$list[] = $item;
 
 	$item = array();
@@ -157,7 +157,7 @@
 
 	$item = array();
 	$item['Keybind'] = "Alt + a";
-	$item['Action'] = "Workspace Switch Prev";
+	$item['Action'] = "Workspace Switch Previous";
 	$list[] = $item;
 
 	$item = array();

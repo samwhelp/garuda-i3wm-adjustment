@@ -35,9 +35,9 @@
 | `Win + grave` | Change focus between tiling / floating windows |
 | `Win + Mouse Left Drag` | Window Move (on Floating) |
 | `Win + Mouse Right Drag` | Window Resize (on Floating) |
-| `Win + a` | Window Switch Prev |
+| `Win + a` | Window Switch Previous |
 | `Win + s` | Window Switch Next |
-| `Alt + a` | Workspace Switch Prev |
+| `Alt + a` | Workspace Switch Previous |
 | `Alt + s` | Workspace Switch Next |
 | `Alt + 1-5` | Workspace Switch to 1-5 |
 | `Win + 1-5` | Window Send to 1-5 |
