@@ -136,12 +136,12 @@
 	$list[] = $item;
 
 	$item = array();
-	$item['Keybind'] = "Win + Mouse Left Drag";
+	$item['Keybind'] = "Win + 滑鼠左鍵拖曳";
 	$item['Action'] = "視窗 / 移動 (浮動視窗)";
 	$list[] = $item;
 
 	$item = array();
-	$item['Keybind'] = "Win + Mouse Right Drag";
+	$item['Keybind'] = "Win + 滑鼠右鍵拖曳";
 	$item['Action'] = "視窗 / 更改大小 (浮動視窗)";
 	$list[] = $item;
 
