@@ -21,9 +21,10 @@ has_children: false
 
 ## Garuda Linux / Edition
 
-| Garuda Linux Edition |
-| -------------------- |
-| [Garuda I3wm](https://garudalinux.org/installation?edition=i3) |
+| Garuda Linux Edition / Settings |
+| ---- |
+| [Garuda Common Settings](https://gitlab.com/garuda-linux/themes-and-settings/settings/garuda-common-settings) |
+| [Garuda i3](https://gitlab.com/garuda-linux/themes-and-settings/settings/garuda-i3-settings) |
 
 
 
