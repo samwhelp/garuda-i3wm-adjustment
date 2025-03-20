@@ -40,8 +40,8 @@ yad --width=1000 --height=600 \
 "Win + f" "視窗 / 切換全螢幕" "#cccccc" "comfortaa 16" \
 "Win + Esc" "視窗 / 切換成浮動或平鋪狀態" "#ffffff" "comfortaa 16" \
 "Win + grave" "聚焦切換至浮動視窗或平鋪視窗" "#cccccc" "comfortaa 16" \
-"Win + Mouse Left Drag" "視窗 / 移動 (浮動視窗)" "#ffffff" "comfortaa 16" \
-"Win + Mouse Right Drag" "視窗 / 更改大小 (浮動視窗)" "#cccccc" "comfortaa 16" \
+"Win + 滑鼠左鍵拖曳" "視窗 / 移動 (浮動視窗)" "#ffffff" "comfortaa 16" \
+"Win + 滑鼠右鍵拖曳" "視窗 / 更改大小 (浮動視窗)" "#cccccc" "comfortaa 16" \
 "Win + a" "聚焦切換至上一個視窗" "#ffffff" "comfortaa 16" \
 "Win + s" "聚焦切換至下一個視窗" "#cccccc" "comfortaa 16" \
 "Alt + a" "切換至上一個工作空間" "#ffffff" "comfortaa 16" \
