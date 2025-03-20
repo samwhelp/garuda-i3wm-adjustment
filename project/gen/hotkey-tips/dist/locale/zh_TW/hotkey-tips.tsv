@@ -18,7 +18,7 @@
 "Alt + Ctrl + s"	"開啟顯示設定 (lxrandr)"
 "Alt + Enter"	"開啟 Terminal (xfce4-terminal)"
 "Alt + Shift + a"	"開啟 Terminal (xfce4-terminal)"
-"Alt + Ctrl + a"	"開啟 Terminal (sakur)"
+"Alt + Ctrl + a"	"開啟 Terminal (sakura)"
 "Alt + Shift + t"	"開啟 Terminal (qterminal)"
 "Alt + Ctrl + t"	"開啟 Terminal (kitty)"
 "Win + q"	"視窗 / 關閉"

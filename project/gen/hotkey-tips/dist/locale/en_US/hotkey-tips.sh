@@ -33,7 +33,7 @@ yad --width=1000 --height=600 \
 "Alt + Ctrl + s" "Launch Display Setting (lxrandr)" "#ffffff" "comfortaa 16" \
 "Alt + Enter" "Launch Terminal (xfce4-terminal)" "#cccccc" "comfortaa 16" \
 "Alt + Shift + a" "Launch Terminal (xfce4-terminal)" "#ffffff" "comfortaa 16" \
-"Alt + Ctrl + a" "Launch Terminal (sakur)" "#cccccc" "comfortaa 16" \
+"Alt + Ctrl + a" "Launch Terminal (sakura)" "#cccccc" "comfortaa 16" \
 "Alt + Shift + t" "Launch Terminal (qterminal)" "#ffffff" "comfortaa 16" \
 "Alt + Ctrl + t" "Launch Terminal (kitty)" "#cccccc" "comfortaa 16" \
 "Win + q" "Window Close" "#ffffff" "comfortaa 16" \

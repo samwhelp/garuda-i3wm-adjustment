@@ -26,7 +26,7 @@
 | `Alt + Ctrl + s` | Launch Display Setting (lxrandr) |
 | `Alt + Enter` | Launch Terminal (xfce4-terminal) |
 | `Alt + Shift + a` | Launch Terminal (xfce4-terminal) |
-| `Alt + Ctrl + a` | Launch Terminal (sakur) |
+| `Alt + Ctrl + a` | Launch Terminal (sakura) |
 | `Alt + Shift + t` | Launch Terminal (qterminal) |
 | `Alt + Ctrl + t` | Launch Terminal (kitty) |
 | `Win + q` | Window Close |

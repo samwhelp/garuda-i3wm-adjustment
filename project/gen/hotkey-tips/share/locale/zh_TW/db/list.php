@@ -102,7 +102,7 @@
 
 	$item = array();
 	$item['Keybind'] = "Alt + Ctrl + a";
-	$item['Action'] = "開啟 Terminal (sakur)";
+	$item['Action'] = "開啟 Terminal (sakura)";
 	$list[] = $item;
 
 	$item = array();

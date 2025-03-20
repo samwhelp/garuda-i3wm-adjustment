@@ -33,7 +33,7 @@ yad --width=1000 --height=600 \
 "Alt + Ctrl + s" "開啟顯示設定 (lxrandr)" "#ffffff" "comfortaa 16" \
 "Alt + Enter" "開啟 Terminal (xfce4-terminal)" "#cccccc" "comfortaa 16" \
 "Alt + Shift + a" "開啟 Terminal (xfce4-terminal)" "#ffffff" "comfortaa 16" \
-"Alt + Ctrl + a" "開啟 Terminal (sakur)" "#cccccc" "comfortaa 16" \
+"Alt + Ctrl + a" "開啟 Terminal (sakura)" "#cccccc" "comfortaa 16" \
 "Alt + Shift + t" "開啟 Terminal (qterminal)" "#ffffff" "comfortaa 16" \
 "Alt + Ctrl + t" "開啟 Terminal (kitty)" "#cccccc" "comfortaa 16" \
 "Win + q" "視窗 / 關閉" "#ffffff" "comfortaa 16" \
