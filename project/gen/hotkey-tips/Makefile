@@ -20,6 +20,7 @@ help:
 
 
 
+
 all: gen-sh gen-md gen-tsv
 .PHONY: all
 
@@ -41,7 +42,9 @@ gen-tsv:
 
 
 
-
+sync:
+	cp -rfT tmp/locale dist/locale
+.PHONY: sync
 
 
 
