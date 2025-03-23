@@ -18,7 +18,7 @@ parent: Cheatsheet
 
 
 
-## Porject
+## Project
 
 | [hotkey-tips](https://github.com/samwhelp/garuda-i3wm-adjustment/tree/main/project/gen/hotkey-tips) |
 | ----------- |
