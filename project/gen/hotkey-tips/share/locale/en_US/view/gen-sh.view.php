@@ -3,7 +3,7 @@
 
 yad --width=1000 --height=600 \
 --center \
---title="Garuda i3wm Keybindings" \
+--title="Garuda i3 Keybindings" \
 --no-buttons \
 --list \
 --column=Keybind: \

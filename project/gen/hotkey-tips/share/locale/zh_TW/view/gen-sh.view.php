@@ -3,7 +3,7 @@
 
 yad --width=1000 --height=600 \
 --center \
---title="Garuda i3wm 按鍵綁定" \
+--title="Garuda i3 按鍵綁定" \
 --no-buttons \
 --list \
 --column=按鍵綁定: \
